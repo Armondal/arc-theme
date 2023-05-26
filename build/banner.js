@@ -10,6 +10,16 @@
 
 module.exports = window["wp"]["element"];
 
+/***/ }),
+
+/***/ "@wordpress/scripts":
+/*!*********************************!*\
+  !*** external ["wp","scripts"] ***!
+  \*********************************/
+/***/ ((module) => {
+
+module.exports = window["wp"]["scripts"];
+
 /***/ })
 
 /******/ 	});
@@ -89,6 +99,9 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _wordpress_scripts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/scripts */ "@wordpress/scripts");
+/* harmony import */ var _wordpress_scripts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_scripts__WEBPACK_IMPORTED_MODULE_1__);
+
 
 wp.blocks.registerBlockType("arc/banner", {
   title: "Banner",

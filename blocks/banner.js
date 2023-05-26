@@ -1,3 +1,5 @@
+import {InnerBlocks} from "@wordpress/scripts"
+
 wp.blocks.registerBlockType("arc/banner", {
   title: "Banner",
   edit: EditComponent,
